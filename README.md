@@ -21,9 +21,7 @@ sudo apt-get install wget curl neofetch zsh fonts-firacode unzip snapd flameshot
 
 #### JetBrainsMono
 wget -O JetBrainsMono.zip https://github.com/JetBrains/JetBrainsMono/archive/refs/tags/v2.304.zip
-
 unzip JetBrainsMono.zip -d ~/.local/share/fonts
-
 sudo rm JetBrainsMono.zip
 
 
@@ -66,23 +64,17 @@ sudo rm google-chrome-stable_current_amd64.deb
 
 ### vscode 
 sudo apt install software-properties-common apt-transport-https wget
-
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
-
 sudo apt install code
 
 ### obsidian 
 sudo snap install obsidian
-
 cd ~/dev && git clone git@github.com:mikessdev/ObsidianNotes.git
 
 ### dbeaver-ce 
 wget -O dbeaver-ce.deb https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-
 sudo dpkg -i dbeaver-ce.deb
-
 sudo rm dbeaver-ce.deb
 
 ### obs studio 
@@ -105,6 +97,12 @@ sudo rm zoom_amd64.deb
 
 ### nvm 
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+
+### vscode config
+cat ./vscode/extensions.txt | xargs -n 1 code --install-extension
+
+
 
 ### Finalização
 mkdir ~/dev && mkdir ~/playground 
@@ -148,6 +146,6 @@ mkdir ~/dev && mkdir ~/playground
 
 
 
-### setup obsidian
+
 
 

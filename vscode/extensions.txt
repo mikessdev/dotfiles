@@ -1,0 +1,16 @@
+Extensions installed on WSL: Ubuntu:
+dbaeumer.vscode-eslint
+eamodio.gitlens
+editorconfig.editorconfig
+esbenp.prettier-vscode
+formulahendry.code-runner
+leandro-rodrigues.fluent-ui-vscode
+mgmcdermott.vscode-language-babel
+ms-azuretools.vscode-docker
+ms-ceintl.vscode-language-pack-pt-br
+ms-vscode.js-debug-nightly
+ms-vscode.vscode-typescript-next
+rvest.vs-code-prettier-eslint
+supermaven.supermaven
+tabnine.tabnine-vscode
+vscodeshift.material-ui-snippets
