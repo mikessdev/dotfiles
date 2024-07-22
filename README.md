@@ -9,13 +9,7 @@
 sudo apt update && sudo apt upgrade -y
 
 ### Instalando coisas básicas
-sudo apt-get install wget curl neofetch zsh fonts-firacode unzip snapd flameshot
-
-
-
-### SSH keys 
-
-
+sudo apt-get install wget curl neofetch zsh fonts-firacode unzip snapd flameshot gnome-tweaks
 
 ### Fonts 
 
