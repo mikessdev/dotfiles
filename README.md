@@ -38,8 +38,8 @@ curl -sS https://starship.rs/install.sh | sh
 
 
 
-### Setup dot dotfiles
-git clone --recurse-submodules https://github.com/omariosouto/dotfiles.git ~/.dotfiles
+### Setup dotfiles
+git clone --recurse-submodules https://github.com/mikessdev/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
