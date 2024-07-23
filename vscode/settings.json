@@ -10,7 +10,7 @@
     "tabnine.experimentalAutoImports": true,
     "window.density.editorTabHeight": "compact",
     "editor.fontFamily": "JetBrainsMono Nerd Font",
-    "terminal.integrated.fontFamily": "FiraMono Nerd Font Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontLigatures": true,
     "editor.wordWrap": "on",
     "remote.autoForwardPortsSource": "hybrid",
