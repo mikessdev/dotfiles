@@ -7,6 +7,8 @@
 ```sh
 ### update 
 sudo apt update && sudo apt upgrade -y
+sudo apt install build-essential
+
 
 ### Instalando coisas básicas
 sudo apt-get install wget curl neofetch zsh fonts-firacode unzip snapd flameshot gnome-tweaks
